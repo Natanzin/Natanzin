@@ -1,14 +1,15 @@
 # Natan Farias da Silva
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5561996401588) 
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?phone=5561999532526) 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:natan.silva.judo@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/natan.ti/)
 
 <h2>Descrição</h2>
 
 <p>
-    :man_student: Análise e Desenvolvimento de Sistemas - Centro Universitário IESB <br>
-    :man_farmer: Auxiliar Administrativo - Base Genética Inseminação Artificial <br><br>
+    :man_student: Graduação - Análise e Desenvolvimento de Sistemas - Centro Universitário IESB <br>
+    :man_student: Pós-graduação - Desenvolvimento FullStack e Cloud Computing - Gran Faculdade <br>
+    :man_farmer: Apoio Administrativo II - Superintendência do Desenvolvimento do Centro-Oeste - SUDECO/MIDR <br><br>
     Procurando sempre ser melhor!
 </p>
 
