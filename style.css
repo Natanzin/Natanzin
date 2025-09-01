@@ -1,48 +1,102 @@
 :root {
-    --azul-escuro: #086788;
-    --azul-claro: #000;
-    --amarelo: #f0c808;
-    --creme: #fff1d0;
-    --vermelho: #dd1c1a;
+    --cinza-azulado: #161925;
+    --laranja: #f58538;
+    --cinza-escuro: #1f2333;
+    --color-font: #fff;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;   /* é variável: libera de 100 a 900 */
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: var(--azul-claro);
-    color: #fff;
+    font-family: 'montserrat', Courier, monospace;
+    background-color: var(--cinza-azulado);
+    color: var(--color-font);
 }
 
 .navbar {
-    background-color: var(--azul-escuro) !important;
+    background-color: var(--cinza-escuro) !important;
+}
+
+.navbar .navbar-brand {
+    color: var(--laranja) !important;
 }
 
 .navbar .nav-link {
-    color: #fff !important;
+    color: var(--laranja) !important;
 }
 
+
 .navbar .nav-link:hover {
-    color: var(--amarelo) !important;
+    color: var(--color-font) !important;
 }
 
 /* Estilos para as seções */
 section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    margin: 15px 100px;
+    background-color: var(--cinza-escuro);
+    border-radius: 10px;
+}
+
+section#sobre {
+    margin-top: 70px;
 }
 
 h2 {
-    color: var(--azul-escuro);
+    color: var(--color-font);
     margin-bottom: 2rem;
 }
 
 /* Estilos para botões e links */
 .btn-primary {
-    background-color: var(--azul-escuro);
-    border-color: var(--azul-escuro);
+    background-color: var(--laranja);
+    border-color: var(--cinza-azulado);
+    color: var(--cinza-escuro);
 }
 
 .btn-primary:hover {
-    background-color: var(--amarelo);
-    border-color: var(--amarelo);
-    color: var(--azul-escuro);
+    background-color: var(--laranja);
+    border-color: var(--laranja);
+    color: var(--color-font);
+}
+
+.social-icon {
+    color: var(--laranja);
+}
+
+.card {
+    background-color: var(--cinza-azulado);
+    color: var(--color-font);
+}
+
+.card-title {
+    color: var(--laranja);
+}
+
+.accordion-button {
+    background-color: var(--cinza-azulado);
+    color: var(--color-font);
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--cinza-azulado);
+    color: var(--color-font);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125); /* sombra interna padrão */
+}
+
+.accordion-body {
+    background-color: var(--cinza-azulado);
+    color: var(--color-font);
+}
+
+button h4 {
+    color: var(--laranja);
+}
+
+h1 {
+    color: var(--laranja);
 }
