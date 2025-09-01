@@ -6,11 +6,44 @@
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900;   /* é variável: libera de 100 a 900 */
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Montserrat';
+    src: url('assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    /* é variável: libera de 100 a 900 */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Estilos para as seções */
+section {
+    margin: 15px 100px;
+    background-color: var(--cinza-escuro);
+    border-radius: 10px;
+}
+
+/* Notebooks e desktops comuns (até 1280px) */
+@media (max-width: 1280px) {
+    section {
+        margin: 15px 50px;
+        background-color: var(--cinza-escuro);
+        border-radius: 10px;
+    }
+}
+/* Notebooks e desktops comuns (até 1280px) */
+@media (max-width: 991px) {
+    section {
+        margin: 15px 30px;
+        background-color: var(--cinza-escuro);
+        border-radius: 10px;
+    }
+}
+/* Notebooks e desktops comuns (até 1280px) */
+@media (max-width: 480px) {
+    section {
+        margin: 15px 15px;
+        background-color: var(--cinza-escuro);
+        border-radius: 10px;
+    }
 }
 
 body {
@@ -36,12 +69,7 @@ body {
     color: var(--color-font) !important;
 }
 
-/* Estilos para as seções */
-section {
-    margin: 15px 100px;
-    background-color: var(--cinza-escuro);
-    border-radius: 10px;
-}
+
 
 section#sobre {
     margin-top: 70px;
@@ -82,15 +110,22 @@ h2 {
     background-color: var(--cinza-azulado);
     color: var(--color-font);
 }
+
 .accordion-button:not(.collapsed) {
-  background-color: var(--cinza-azulado);
+    background-color: var(--cinza-azulado);
     color: var(--color-font);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125); /* sombra interna padrão */
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    /* sombra interna padrão */
 }
 
 .accordion-body {
     background-color: var(--cinza-azulado);
     color: var(--color-font);
+}
+
+/* Ícone da setinha */
+.accordion-button::after {
+  filter: brightness(0) invert(1); /* deixa a setinha branca */
 }
 
 button h4 {
