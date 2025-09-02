@@ -93,16 +93,23 @@ h2 {
     color: var(--color-font);
 }
 
-.social-icon {
-    color: var(--laranja);
-}
-
 .card {
     background-color: var(--cinza-azulado);
     color: var(--color-font);
 }
 
-.card-title {
+.cert-link {
+    color: var(--laranja);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.cert-link:hover {
+    color: var(--laranja);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.card-title, .social-icon {
     color: var(--laranja);
 }
 
